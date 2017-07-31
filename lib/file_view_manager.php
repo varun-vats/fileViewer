@@ -10,16 +10,27 @@ class FileViewManager {
 	
 	public function getContents($fileData) {
 		$fileStatus = array();
-		$validatorResponse = $this->validator->validateParamsForFile($fileData);
-		if($validatorResponse['status'] == true) {
-			$fileContent = $this->fileReaderUtil->readFileContent($fileData,self::MAX_RECORDS_TO_DISPLAY);
-			$fileStatus['status'] = true;
-			$fileStatus['content']['lines'] = $fileContent['content'];
-			$fileStatus['content']['newPage'] = $fileContent['newPage'];
+		try {
+			$validatorResponse = $this->validator->validateParamsForFile($fileData);
+			if($validatorResponse['status'] == true) {
+				$fileContent = $this->fileReaderUtil->readFileContent($fileData,self::MAX_RECORDS_TO_DISPLAY);
+				$fileStatus['status'] = true;
+				$fileStatus['content']['lines'] = $fileContent['content'];
+				$fileStatus['content']['newPage'] = $fileContent['newPage'];
+			}
+			else {
+				$fileStatus['status'] = false;
+				$fileStatus['reason'] = $validatorResponse['errMsg'];
+			}
 		}
-		else {
+		catch(FileReaderException $e){
 			$fileStatus['status'] = false;
-			$fileStatus['reason'] = $validatorResponse['errMsg'];
+			$fileStatus['reason'] = $e->getMessage();
+
+		}
+		catch(Exception $e) {
+			$fileStatus['status'] = false;
+			$fileStatus['reason'] = "Unknown error occured";
 		}
 		return $fileStatus;
 	}
