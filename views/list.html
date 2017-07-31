@@ -2,14 +2,25 @@
 <html lang = "en-US">
  <head>
  <meta charset = "UTF-8">
- <title>fileViewer.html</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <title>fileViewer</title>
  <style type = "text/css">
  .outer {
     width: 960px;
     color: black;
+    border: 1px solid;
+    padding: 5px;
+    margin:auto;
+ }
+.inner {
+    width: 900px;
+    height:auto;
+    color: black;
     border: 2px solid;
     padding: 5px;
+    margin: auto;
  }
+
 .viewButton{
  background:grey;
  text-align:center;
@@ -21,6 +32,9 @@
     width:10px;
     height:auto;
     display:inline-block;
+}
+.center{
+margin:auto;
 }
 table,th {
     border: solid grey;
@@ -34,24 +48,34 @@ table,th {
  <div class="outer">
 <br/>
 <br/>
-<div align="center">
+<div class="center">
 <div class="divider"></div>
-  <input type="text" name ="fileInput" id="fileInput" placeholder="/path/to/file" style="height:24px;width:800px"></input><div class="divider"></div>
-  <input  class="viewButton" type="button" name="showFile" id="showFile" value="View"></input><div class="divider"></div>
+  <input type="text" name ="fileInput" id="fileInput" placeholder="/path/to/file" style="height:24px;width:800px"></input>
+<div class="divider"></div>
+  <input  class="viewButton" type="button" name="showFile" id="showFile" value="View"></input>
+<div class="divider"></div>
+  <input type="hidden" id="page" value="1" name="page" />
+  <input type="hidden" id="pos" value="0" name="pos" />
+<div class="divider"></div>
+<div class="divider"></div>
+<div class="divider"></div>
+<div class="inner" id="cont">
 </div>
-<br/>
-<br/>
-<br/>
+<div class="divider"></div>
+<div class="divider"></div>
+<div class="divider"></div>
 <table width="920px" height="20px" align="center">
   <tr>
-    <th><a href="" value="|&lt;">|&lt;</a></th>
-    <th>&lt;</th> 
-    <th>&gt;</th>
-    <th>&gt;|</th>
+    <th onclick="firstPage()" style="cursor: pointer;">|&lt;</th>
+    <th onclick="prevPage()" style="cursor: pointer;">&lt;</th> 
+    <th onclick="nextPage()" style="cursor: pointer;">&gt;</th>
+    <th onclick="lastPage()" style="cursor: pointer;">&gt;|</th>
   </tr>
 </table>
 
 <br/>
 </div>
+</div>
+<script src="../js/fileViewer.js"></script>
  </body>
 </html>
