@@ -1,81 +1,40 @@
 <!DOCTYPE html>
 <html lang = "en-US">
- <head>
- <meta charset = "UTF-8">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
- <title>fileViewer</title>
- <style type = "text/css">
- .outer {
-    width: 960px;
-    color: black;
-    border: 1px solid;
-    padding: 5px;
-    margin:auto;
- }
-.inner {
-    width: 900px;
-    height:auto;
-    color: black;
-    border: 2px solid;
-    padding: 5px;
-    margin: auto;
- }
+<head>
+<meta charset = "UTF-8">
+<title>fileViewer</title>
+<script src="../static/js/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="../static/css/fileViewer_v1.0.0.css">
+</head>
+<body>
+<div class="outer">
+	<br/>
+	<br/>
+	<div class="center">
+		<div class="divider"></div>
+		<input type="text" name ="fileInput" id="fileInput" placeholder="/path/to/file" class="inptBx"></input>
+		<div class="divider"></div>
+		<input  class="viewButton" type="button" name="showFile" id="showFile" value="View"></input>
+		<div class="divider"></div>
+		<input type="hidden" id="page" value="1" name="page" />
+		<div class="divider"></div>
+		<div class="divider"></div>
+		<span id="cont"></span>
+		<div class="divider"></div>
+		<div class="divider"></div>
+		<div class="divider"></div>
+		<table width="920px" height="20px" align="center">
+			<tr>
+				<th  id="first" >|&lt;</th>
+				<th id="prev" >&lt;</th> 
+				<th id="next" >&gt;</th>
+				<th id="last" >&gt;|</th>
+			</tr>
+		</table>
 
-.viewButton{
- background:grey;
- text-align:center;
- width:100px;
- height:30px;
-
-}
-.divider{
-    width:10px;
-    height:auto;
-    display:inline-block;
-}
-.center{
-margin:auto;
-}
-table,th {
-    border: solid grey;
-    border-collapse:collapse;
-    height:30px;
- 
-}
- </style>
- </head>
- <body>
- <div class="outer">
-<br/>
-<br/>
-<div class="center">
-<div class="divider"></div>
-  <input type="text" name ="fileInput" id="fileInput" placeholder="/path/to/file" style="height:24px;width:800px"></input>
-<div class="divider"></div>
-  <input  class="viewButton" type="button" name="showFile" id="showFile" value="View"></input>
-<div class="divider"></div>
-  <input type="hidden" id="page" value="1" name="page" />
-  <input type="hidden" id="pos" value="0" name="pos" />
-<div class="divider"></div>
-<div class="divider"></div>
-<div class="divider"></div>
-<div class="inner" id="cont">
+		<br/>
+	</div>
 </div>
-<div class="divider"></div>
-<div class="divider"></div>
-<div class="divider"></div>
-<table width="920px" height="20px" align="center">
-  <tr>
-    <th onclick="firstPage()" style="cursor: pointer;" id="first">|&lt;</th>
-    <th onclick="prevPage()" style="cursor: pointer;" id="prev">&lt;</th> 
-    <th onclick="nextPage()" style="cursor: pointer;" id="next">&gt;</th>
-    <th onclick="lastPage()" style="cursor: pointer;" id="last">&gt;|</th>
-  </tr>
-</table>
-
-<br/>
-</div>
-</div>
-<script src="../js/fileViewer.js"></script>
- </body>
+<script src="../static/js/fileViewer_v1.0.0.js"></script>
+</body>
 </html>

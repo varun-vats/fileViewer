@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInita22aa53d965ef41285dadb7304cb6fef
+class ComposerStaticInit012e2334f8056b187b2fa5bb1d8e271b
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -342,9 +342,9 @@ class ComposerStaticInita22aa53d965ef41285dadb7304cb6fef
         'Cilex\\Tests\\ServiceProviderMock' => __DIR__ . '/..' . '/cilex/cilex/tests/Cilex/Tests/ApplicationTest.php',
         'ClassWithNonPublicAttributes' => __DIR__ . '/..' . '/phpunit/phpunit/Tests/_files/ClassWithNonPublicAttributes.php',
         'ClassWithToString' => __DIR__ . '/..' . '/phpunit/phpunit/Tests/_files/ClassWithToString.php',
-        'ComposerAutoloaderInita22aa53d965ef41285dadb7304cb6fef' => __DIR__ . '/..' . '/composer/autoload_real.php',
+        'ComposerAutoloaderInit012e2334f8056b187b2fa5bb1d8e271b' => __DIR__ . '/..' . '/composer/autoload_real.php',
         'Composer\\Autoload\\ClassLoader' => __DIR__ . '/..' . '/composer/ClassLoader.php',
-        'Composer\\Autoload\\ComposerStaticInita22aa53d965ef41285dadb7304cb6fef' => __DIR__ . '/..' . '/composer/autoload_static.php',
+        'Composer\\Autoload\\ComposerStaticInit012e2334f8056b187b2fa5bb1d8e271b' => __DIR__ . '/..' . '/composer/autoload_static.php',
         'ConcreteTest' => __DIR__ . '/..' . '/phpunit/phpunit/Tests/_files/ConcreteTest.php',
         'ConcreteWithMyCustomExtensionTest' => __DIR__ . '/..' . '/phpunit/phpunit/Tests/_files/ConcreteTest.my.php',
         'CoreTestIterator' => __DIR__ . '/..' . '/twig/twig/test/Twig/Tests/Extension/CoreTest.php',
@@ -437,20 +437,21 @@ class ComposerStaticInita22aa53d965ef41285dadb7304cb6fef
         'FailureTest' => __DIR__ . '/..' . '/phpunit/phpunit/Tests/_files/FailureTest.php',
         'FatalTest' => __DIR__ . '/..' . '/phpunit/phpunit/Tests/_files/FatalTest.php',
         'FeatureContext' => __DIR__ . '/..' . '/phpdocumentor/phpdocumentor/features/bootstrap/FeatureContext.php',
-        'FileReaderUtility' => __DIR__ . '/../..' . '/lib/file_reader_utility.php',
-        'FileViewFactory' => __DIR__ . '/../..' . '/lib/file_view_factory.php',
-        'FileViewManager' => __DIR__ . '/../..' . '/lib/file_view_manager.php',
-        'FileViewValidator' => __DIR__ . '/../..' . '/lib/file_view_validator.php',
+        'FileReaderException' => __DIR__ . '/../..' . '/lib/FileReader/file_reader_exception.php',
+        'FileReaderUtility' => __DIR__ . '/../..' . '/lib/FileReader/file_reader_utility.php',
+        'FileViewFactory' => __DIR__ . '/../..' . '/lib/FileReader/file_view_factory.php',
+        'FileViewManager' => __DIR__ . '/../..' . '/lib/FileReader/file_view_manager.php',
+        'FileViewValidator' => __DIR__ . '/../..' . '/lib/FileReader/file_view_validator.php',
         'File_Iterator' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Iterator.php',
         'File_Iterator_Facade' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Facade.php',
         'File_Iterator_Factory' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Factory.php',
-        'Foo' => __DIR__ . '/..' . '/phpunit/php-code-coverage/Tests/_files/source_with_ignore.php',
+        'Foo' => __DIR__ . '/..' . '/phpunit/php-token-stream/Tests/_files/issue30.php',
         'FooObject' => __DIR__ . '/..' . '/twig/twig/test/Twig/Tests/Extension/SandboxTest.php',
         'Foo\\BarScoped\\TestClass' => __DIR__ . '/..' . '/phpunit/php-token-stream/Tests/_files/classInScopedNamespace.php',
         'Foo\\Bar\\Baz' => __DIR__ . '/..' . '/phpunit/php-token-stream/Tests/_files/classExtendsNamespacedClass.php',
         'Foo\\Bar\\TestClass' => __DIR__ . '/..' . '/phpunit/php-token-stream/Tests/_files/classInNamespace.php',
-        'Foo\\Bar\\TestClassInBar' => __DIR__ . '/..' . '/phpunit/php-token-stream/Tests/_files/multipleNamespacesWithOneClassUsingNonBraceSyntax.php',
-        'Foo\\Baz\\TestClassInBaz' => __DIR__ . '/..' . '/phpunit/php-token-stream/Tests/_files/multipleNamespacesWithOneClassUsingNonBraceSyntax.php',
+        'Foo\\Bar\\TestClassInBar' => __DIR__ . '/..' . '/phpunit/php-token-stream/Tests/_files/multipleNamespacesWithOneClassUsingBraces.php',
+        'Foo\\Baz\\TestClassInBaz' => __DIR__ . '/..' . '/phpunit/php-token-stream/Tests/_files/multipleNamespacesWithOneClassUsingBraces.php',
         'Foo\\CoveredClass' => __DIR__ . '/..' . '/phpunit/php-code-coverage/Tests/_files/NamespaceCoveredClass.php',
         'Foo\\CoveredParentClass' => __DIR__ . '/..' . '/phpunit/php-code-coverage/Tests/_files/NamespaceCoveredClass.php',
         'Foo_Bar_Issue684Test' => __DIR__ . '/..' . '/phpunit/phpunit/Tests/Regression/684/Issue684Test.php',
@@ -1105,8 +1106,8 @@ class ComposerStaticInita22aa53d965ef41285dadb7304cb6fef
         'Other\\Space\\Extender' => __DIR__ . '/..' . '/phpunit/php-token-stream/Tests/_files/classExtendsNamespacedClass.php',
         'OutputTestCase' => __DIR__ . '/..' . '/phpunit/phpunit/Tests/_files/OutputTestCase.php',
         'OverrideTestCase' => __DIR__ . '/..' . '/phpunit/phpunit/Tests/_files/OverrideTestCase.php',
-        'PHPCS_Sniffs_ControlStructures_ControlSignatureSniff' => __DIR__ . '/..' . '/phpunit/php-code-coverage/build/PHPCS/Sniffs/ControlStructures/ControlSignatureSniff.php',
-        'PHPCS_Sniffs_Whitespace_ConcatenationSpacingSniff' => __DIR__ . '/..' . '/phpunit/php-code-coverage/build/PHPCS/Sniffs/Whitespace/ConcatenationSpacingSniff.php',
+        'PHPCS_Sniffs_ControlStructures_ControlSignatureSniff' => __DIR__ . '/..' . '/phpunit/php-token-stream/build/PHPCS/Sniffs/ControlStructures/ControlSignatureSniff.php',
+        'PHPCS_Sniffs_Whitespace_ConcatenationSpacingSniff' => __DIR__ . '/..' . '/phpunit/php-token-stream/build/PHPCS/Sniffs/Whitespace/ConcatenationSpacingSniff.php',
         'PHPUnit_Extensions_GroupTestSuite' => __DIR__ . '/..' . '/phpunit/phpunit/PHPUnit/Extensions/GroupTestSuite.php',
         'PHPUnit_Extensions_PhptTestCase' => __DIR__ . '/..' . '/phpunit/phpunit/PHPUnit/Extensions/PhptTestCase.php',
         'PHPUnit_Extensions_PhptTestCase_Logger' => __DIR__ . '/..' . '/phpunit/phpunit/PHPUnit/Extensions/PhptTestCase/Logger.php',
@@ -3950,13 +3951,13 @@ class ComposerStaticInita22aa53d965ef41285dadb7304cb6fef
         'ezcDocumentXsltConverterOptions' => __DIR__ . '/..' . '/zetacomponents/document/src/options/converter_xslt.php',
         'ezcTestDocumentPdfHyphenator' => __DIR__ . '/..' . '/zetacomponents/document/tests/helper/pdf_test_hyphenator.php',
         'ezcTestDocumentPdfMockDriver' => __DIR__ . '/..' . '/zetacomponents/document/tests/helper/pdf_mocked_driver.php',
-        'foo' => __DIR__ . '/..' . '/phpdocumentor/phpdocumentor/tests/data/file-level/NoPackagePrecedesClass.php',
+        'foo' => __DIR__ . '/..' . '/phpdocumentor/phpdocumentor/tests/data/file-level/PackagePrecedesClass.php',
         'foo\\DocBlocTest' => __DIR__ . '/..' . '/phpdocumentor/phpdocumentor/tests/data/NamespaceTestData.php',
         'foo\\NamespaceTest' => __DIR__ . '/..' . '/phpdocumentor/phpdocumentor/tests/data/NamespaceTestData.php',
         'i' => __DIR__ . '/..' . '/phpunit/php-token-stream/Tests/_files/source5.php',
         'iTemplate' => __DIR__ . '/..' . '/phpunit/php-token-stream/Tests/_files/source4.php',
         'myAddressDirective' => __DIR__ . '/..' . '/zetacomponents/document/docs/tutorial/00_01_address_directive.php',
-        'myAddressElementHandler' => __DIR__ . '/..' . '/zetacomponents/document/tests/helper/docbook_rst_address_element.php',
+        'myAddressElementHandler' => __DIR__ . '/..' . '/zetacomponents/document/docs/tutorial/00_04_address_element.php',
         'myLinkProvider' => __DIR__ . '/..' . '/zetacomponents/document/docs/tutorial/02_01_link_provider.php',
         'myProgressFinder' => __DIR__ . '/..' . '/zetacomponents/base/docs/tutorial_example_04.php',
         'phpDocumentor\\Application' => __DIR__ . '/..' . '/phpdocumentor/phpdocumentor/src/phpDocumentor/Application.php',
@@ -4496,10 +4497,10 @@ class ComposerStaticInita22aa53d965ef41285dadb7304cb6fef
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInita22aa53d965ef41285dadb7304cb6fef::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInita22aa53d965ef41285dadb7304cb6fef::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInita22aa53d965ef41285dadb7304cb6fef::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInita22aa53d965ef41285dadb7304cb6fef::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit012e2334f8056b187b2fa5bb1d8e271b::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit012e2334f8056b187b2fa5bb1d8e271b::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit012e2334f8056b187b2fa5bb1d8e271b::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit012e2334f8056b187b2fa5bb1d8e271b::$classMap;
 
         }, null, ClassLoader::class);
     }

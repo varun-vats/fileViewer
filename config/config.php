@@ -1,4 +1,3 @@
 <?php
-$validFileActions = array("first","prev","next","last");
-define('VALID_ACTIONS',$validFileActions);
-define('SERVER_LOG_DIR',"/var/www");
+const VALID_ACTIONS = array("first","prev","next","last");
+const SERVER_LOG_DIR = "/";

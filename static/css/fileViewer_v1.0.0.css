@@ -1,0 +1,32 @@
+.outer {
+	width: 960px;
+	color: black;
+	border: 1px solid;
+	padding: 5px;
+	margin:auto;
+}
+.inptBx{
+	border: 1px solid;
+	height:24px;
+	width:800px
+}
+.viewButton{
+	background:#E8E8EE;
+	text-align:center;
+	width:100px;
+	height:30px;
+
+}
+.divider{
+	width:10px;
+	height:auto;
+	display:inline-block;
+}
+.center{
+	margin:auto;
+}
+th { border: 1px solid #E8E8EE;border-collapse:collapse; height:30px;}
+table { border: 1px solid; border-collapse: collapse; }
+table td { border-left: 1px solid #000; }
+table td:first-child { border-left: none; }
+tr.spaceUnder>td { padding-bottom: 1em; padding-top: 1em;}
