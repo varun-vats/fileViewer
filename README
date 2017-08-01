@@ -1,6 +1,5 @@
 1.) To initailize project : 
-run "composer install"
-and "composer dump-aautoload"
+run "composer install" or "composer dump-autoload"
 
 2.)  File Viewer Interface : 
 http://DOMAIN_URL/fileViewer/controller/viewFile.php
