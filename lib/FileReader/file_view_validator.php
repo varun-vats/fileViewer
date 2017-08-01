@@ -1,6 +1,7 @@
 <?php
 class FileViewValidator{
 	public function validateParamsForFile($fileData) {
+		$msg = '';
 		$status = $this->validateFilePath($fileData['path']);
 		if($status) {
 			$status = $this->validatePage($fileData['page']);

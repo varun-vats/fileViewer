@@ -1,11 +1,11 @@
 <?php
 class FileReaderUtility {
-	public function readFileContent($reqData,$recToDisp){
+	public function readFileContent($reqData){
 		try {
 			$fileObj = new SplFileObject($reqData['path']);
-			$newCurrPage = $this->getNewCurrPage($reqData,$recToDisp);
-			$start = ($newCurrPage-1)*$recToDisp;
-			$end = $start+$recToDisp-1;
+			$newCurrPage = $this->getNewCurrPage($reqData);
+			$start = ($newCurrPage-1)*LINES_PER_PAGE;
+			$end = $start+LINES_PER_PAGE-1;
 			$pageType = $reqData['type'];
 			for($i=$start;$i<=$end && $i>=0;$i++){
 				$content = array();
@@ -31,7 +31,7 @@ class FileReaderUtility {
 		}
 	}
 
-	private function getNewCurrPage($reqData,$recToDisp){
+	private function getNewCurrPage($reqData){
 		$pageType = $reqData['type'];
 		$pageNo = $reqData['page'];
 		if($pageType == "first") {
@@ -45,7 +45,7 @@ class FileReaderUtility {
 		}
 		else if($pageType == "last"){
 			$totalLines = $this->getTotalLines($reqData['path']);
-			$currPage = ceil($totalLines/$recToDisp);
+			$currPage = ceil($totalLines/LINES_PER_PAGE);
 		}
 		$currPage = $currPage< 1 ? 1 :$currPage;
 		return $currPage;

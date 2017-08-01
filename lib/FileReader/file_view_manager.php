@@ -2,7 +2,6 @@
 class FileViewManager {
 	private $validator;
 	private $fileReaderUtil;
-	const MAX_RECORDS_TO_DISPLAY = 10;
 	public function __construct($validator,$fileReaderUtil) {
 		$this->validator = $validator;
 		$this->fileReaderUtil = $fileReaderUtil;
@@ -13,7 +12,7 @@ class FileViewManager {
 		try {
 			$validatorResponse = $this->validator->validateParamsForFile($fileData);
 			if($validatorResponse['status'] == true) {
-				$fileContent = $this->fileReaderUtil->readFileContent($fileData,self::MAX_RECORDS_TO_DISPLAY);
+				$fileContent = $this->fileReaderUtil->readFileContent($fileData);
 				$fileStatus['status'] = true;
 				$fileStatus['content']['lines'] = $fileContent['content'];
 				$fileStatus['content']['newPage'] = $fileContent['newPage'];

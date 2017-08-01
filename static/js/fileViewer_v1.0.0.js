@@ -1,4 +1,4 @@
-var getDataUrl = "http://127.0.0.1/fileViewer/controller/getContents.php";
+//var getDataUrl = "http://127.0.0.1/fileViewer/controller/getContents.php";
 $( document ).ready(function() {
 	bindClickToGetFile();
 	$('#fileInput').bind("enterKey",function(e)	{
