@@ -1,0 +1,367 @@
+exception 'LogicException' with message 'Cannot use SplFileObject with directories' in /var/www/fileViewer/lib/FileReader/file_reader_utility.php:5
+Stack trace:
+#0 /var/www/fileViewer/lib/FileReader/file_reader_utility.php(5): SplFileObject->__construct('/var/www')
+#1 /var/www/fileViewer/lib/FileReader/file_view_manager.php(15): FileReaderUtility->readFileContent(Array)
+#2 /var/www/fileViewer/controller/getContents.php(8): FileViewManager->getContents(Array)
+#3 {main}exception 'LogicException' with message 'Cannot use SplFileObject with directories' in /var/www/fileViewer/lib/FileReader/file_reader_utility.php:5
+Stack trace:
+#0 /var/www/fileViewer/lib/FileReader/file_reader_utility.php(5): SplFileObject->__construct('/var/www')
+#1 /var/www/fileViewer/lib/FileReader/file_view_manager.php(15): FileReaderUtility->readFileContent(Array)
+#2 /var/www/fileViewer/controller/getContents.php(8): FileViewManager->getContents(Array)
+#3 {main}exception 'LogicException' with message 'Cannot use SplFileObject with directories' in /var/www/fileViewer/lib/FileReader/file_reader_utility.php:5
+Stack trace:
+#0 /var/www/fileViewer/lib/FileReader/file_reader_utility.php(5): SplFileObject->__construct('/var/www')
+#1 /var/www/fileViewer/lib/FileReader/file_view_manager.php(15): FileReaderUtility->readFileContent(Array)
+#2 /var/www/fileViewer/controller/getContents.php(8): FileViewManager->getContents(Array)
+#3 {main}
+Exception : This is exception while reading file Message :  Code : 0
+Exception : exception 'Exception' with message 'This is exception while reading file' in /var/www/fileViewer/tests/FileReader/FileReaderExceptionTest.php:7
+Stack trace:
+#0 [internal function]: FileReaderExceptionTest->testcreateObject()
+#1 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(988): ReflectionMethod->invokeArgs(Object(FileReaderExceptionTest), Array)
+#2 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(838): PHPUnit_Framework_TestCase->runTest()
+#3 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestResult.php(648): PHPUnit_Framework_TestCase->runBare()
+#4 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(783): PHPUnit_Framework_TestResult->run(Object(FileReaderExceptionTest))
+#5 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(779): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#6 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(749): PHPUnit_Framework_TestSuite->runTest(Object(FileReaderExceptionTest), Object(PHPUnit_Framework_TestResult))
+#7 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(709): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#8 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/TestRunner.php(350): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#9 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(176): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#10 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(129): PHPUnit_TextUI_Command->run(Array, true)
+#11 /var/www/fileViewer/vendor/phpunit/phpunit/phpunit.php(46): PHPUnit_TextUI_Command::main()
+#12 {main} Message :  Code : 0
+Exception : exception 'Exception' with message 'This is exception while reading file' in /var/www/fileViewer/tests/FileReader/FileReaderExceptionTest.php:7
+Stack trace:
+#0 [internal function]: FileReaderExceptionTest->testcreateObject()
+#1 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(988): ReflectionMethod->invokeArgs(Object(FileReaderExceptionTest), Array)
+#2 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(838): PHPUnit_Framework_TestCase->runTest()
+#3 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestResult.php(648): PHPUnit_Framework_TestCase->runBare()
+#4 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(783): PHPUnit_Framework_TestResult->run(Object(FileReaderExceptionTest))
+#5 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(779): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#6 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(749): PHPUnit_Framework_TestSuite->runTest(Object(FileReaderExceptionTest), Object(PHPUnit_Framework_TestResult))
+#7 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(709): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#8 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/TestRunner.php(350): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#9 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(176): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#10 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(129): PHPUnit_TextUI_Command->run(Array, true)
+#11 /var/www/fileViewer/vendor/phpunit/phpunit/phpunit.php(46): PHPUnit_TextUI_Command::main()
+#12 {main} Message :  Code : 0
+Exception : exception 'Exception' with message 'This is exception while reading file' in /var/www/fileViewer/tests/FileReader/FileReaderExceptionTest.php:7
+Stack trace:
+#0 [internal function]: FileReaderExceptionTest->testcreateObject()
+#1 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(988): ReflectionMethod->invokeArgs(Object(FileReaderExceptionTest), Array)
+#2 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(838): PHPUnit_Framework_TestCase->runTest()
+#3 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestResult.php(648): PHPUnit_Framework_TestCase->runBare()
+#4 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(783): PHPUnit_Framework_TestResult->run(Object(FileReaderExceptionTest))
+#5 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(779): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#6 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(749): PHPUnit_Framework_TestSuite->runTest(Object(FileReaderExceptionTest), Object(PHPUnit_Framework_TestResult))
+#7 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(709): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#8 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/TestRunner.php(350): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#9 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(176): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#10 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(129): PHPUnit_TextUI_Command->run(Array, true)
+#11 /var/www/fileViewer/vendor/phpunit/phpunit/phpunit.php(46): PHPUnit_TextUI_Command::main()
+#12 {main} Message :  Code : 0
+Exception : exception 'Exception' with message 'This is exception while reading file' in /var/www/fileViewer/tests/FileReader/FileReaderExceptionTest.php:7
+Stack trace:
+#0 [internal function]: FileReaderExceptionTest->testcreateObject()
+#1 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(988): ReflectionMethod->invokeArgs(Object(FileReaderExceptionTest), Array)
+#2 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(838): PHPUnit_Framework_TestCase->runTest()
+#3 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestResult.php(648): PHPUnit_Framework_TestCase->runBare()
+#4 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(783): PHPUnit_Framework_TestResult->run(Object(FileReaderExceptionTest))
+#5 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(779): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#6 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(749): PHPUnit_Framework_TestSuite->runTest(Object(FileReaderExceptionTest), Object(PHPUnit_Framework_TestResult))
+#7 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(709): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#8 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/TestRunner.php(350): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#9 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(176): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#10 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(129): PHPUnit_TextUI_Command->run(Array, true)
+#11 /var/www/fileViewer/vendor/phpunit/phpunit/phpunit.php(46): PHPUnit_TextUI_Command::main()
+#12 {main} Message :  Code : 0
+Exception : exception 'Exception' with message 'This is exception while reading file' in /var/www/fileViewer/tests/FileReader/FileReaderExceptionTest.php:7
+Stack trace:
+#0 [internal function]: FileReaderExceptionTest->testcreateObject()
+#1 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(988): ReflectionMethod->invokeArgs(Object(FileReaderExceptionTest), Array)
+#2 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(838): PHPUnit_Framework_TestCase->runTest()
+#3 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestResult.php(648): PHPUnit_Framework_TestCase->runBare()
+#4 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(783): PHPUnit_Framework_TestResult->run(Object(FileReaderExceptionTest))
+#5 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(779): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#6 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(749): PHPUnit_Framework_TestSuite->runTest(Object(FileReaderExceptionTest), Object(PHPUnit_Framework_TestResult))
+#7 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(709): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#8 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/TestRunner.php(350): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#9 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(176): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#10 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(129): PHPUnit_TextUI_Command->run(Array, true)
+#11 /var/www/fileViewer/vendor/phpunit/phpunit/phpunit.php(46): PHPUnit_TextUI_Command::main()
+#12 {main} Message :  Code : 0
+Exception : exception 'Exception' with message 'This is exception while reading file' in /var/www/fileViewer/tests/FileReader/FileReaderExceptionTest.php:7
+Stack trace:
+#0 [internal function]: FileReaderExceptionTest->testcreateObject()
+#1 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(988): ReflectionMethod->invokeArgs(Object(FileReaderExceptionTest), Array)
+#2 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(838): PHPUnit_Framework_TestCase->runTest()
+#3 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestResult.php(648): PHPUnit_Framework_TestCase->runBare()
+#4 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(783): PHPUnit_Framework_TestResult->run(Object(FileReaderExceptionTest))
+#5 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(779): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#6 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(749): PHPUnit_Framework_TestSuite->runTest(Object(FileReaderExceptionTest), Object(PHPUnit_Framework_TestResult))
+#7 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(709): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#8 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/TestRunner.php(350): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#9 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(176): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#10 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(129): PHPUnit_TextUI_Command->run(Array, true)
+#11 /var/www/fileViewer/vendor/phpunit/phpunit/phpunit.php(46): PHPUnit_TextUI_Command::main()
+#12 {main} Message :  Code : 0
+Exception : exception 'Exception' with message 'This is exception while reading file' in /var/www/fileViewer/tests/FileReader/FileReaderExceptionTest.php:7
+Stack trace:
+#0 [internal function]: FileReaderExceptionTest->testcreateObject()
+#1 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(988): ReflectionMethod->invokeArgs(Object(FileReaderExceptionTest), Array)
+#2 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(838): PHPUnit_Framework_TestCase->runTest()
+#3 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestResult.php(648): PHPUnit_Framework_TestCase->runBare()
+#4 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(783): PHPUnit_Framework_TestResult->run(Object(FileReaderExceptionTest))
+#5 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(779): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#6 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(749): PHPUnit_Framework_TestSuite->runTest(Object(FileReaderExceptionTest), Object(PHPUnit_Framework_TestResult))
+#7 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(709): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#8 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/TestRunner.php(350): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#9 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(176): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#10 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(129): PHPUnit_TextUI_Command->run(Array, true)
+#11 /var/www/fileViewer/vendor/phpunit/phpunit/phpunit.php(46): PHPUnit_TextUI_Command::main()
+#12 {main} Message :  Code : 0
+Exception : exception 'Exception' with message 'This is exception while reading file' in /var/www/fileViewer/tests/FileReader/FileReaderExceptionTest.php:7
+Stack trace:
+#0 [internal function]: FileReaderExceptionTest->testcreateObject()
+#1 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(988): ReflectionMethod->invokeArgs(Object(FileReaderExceptionTest), Array)
+#2 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(838): PHPUnit_Framework_TestCase->runTest()
+#3 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestResult.php(648): PHPUnit_Framework_TestCase->runBare()
+#4 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(783): PHPUnit_Framework_TestResult->run(Object(FileReaderExceptionTest))
+#5 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(779): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#6 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(749): PHPUnit_Framework_TestSuite->runTest(Object(FileReaderExceptionTest), Object(PHPUnit_Framework_TestResult))
+#7 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(709): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#8 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/TestRunner.php(350): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#9 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(176): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#10 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(129): PHPUnit_TextUI_Command->run(Array, true)
+#11 /var/www/fileViewer/vendor/phpunit/phpunit/phpunit.php(46): PHPUnit_TextUI_Command::main()
+#12 {main} Message :  Code : 0
+Exception : exception 'Exception' with message 'This is exception while reading file' in /var/www/fileViewer/tests/FileReader/FileReaderExceptionTest.php:7
+Stack trace:
+#0 [internal function]: FileReaderExceptionTest->testcreateObject()
+#1 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(988): ReflectionMethod->invokeArgs(Object(FileReaderExceptionTest), Array)
+#2 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(838): PHPUnit_Framework_TestCase->runTest()
+#3 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestResult.php(648): PHPUnit_Framework_TestCase->runBare()
+#4 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(783): PHPUnit_Framework_TestResult->run(Object(FileReaderExceptionTest))
+#5 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(779): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#6 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(749): PHPUnit_Framework_TestSuite->runTest(Object(FileReaderExceptionTest), Object(PHPUnit_Framework_TestResult))
+#7 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(709): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#8 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/TestRunner.php(350): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#9 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(176): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#10 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(129): PHPUnit_TextUI_Command->run(Array, true)
+#11 /var/www/fileViewer/vendor/phpunit/phpunit/phpunit.php(46): PHPUnit_TextUI_Command::main()
+#12 {main} Message :  Code : 0
+Exception : exception 'Exception' with message 'This is exception while reading file' in /var/www/fileViewer/tests/FileReader/FileReaderExceptionTest.php:7
+Stack trace:
+#0 [internal function]: FileReaderExceptionTest->testcreateObject()
+#1 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(988): ReflectionMethod->invokeArgs(Object(FileReaderExceptionTest), Array)
+#2 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(838): PHPUnit_Framework_TestCase->runTest()
+#3 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestResult.php(648): PHPUnit_Framework_TestCase->runBare()
+#4 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(783): PHPUnit_Framework_TestResult->run(Object(FileReaderExceptionTest))
+#5 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(779): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#6 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(749): PHPUnit_Framework_TestSuite->runTest(Object(FileReaderExceptionTest), Object(PHPUnit_Framework_TestResult))
+#7 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(709): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#8 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/TestRunner.php(350): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#9 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(176): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#10 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(129): PHPUnit_TextUI_Command->run(Array, true)
+#11 /var/www/fileViewer/vendor/phpunit/phpunit/phpunit.php(46): PHPUnit_TextUI_Command::main()
+#12 {main} Message :  Code : 0
+Exception : exception 'LogicException' with message 'Cannot use SplFileObject with directories' in /var/www/fileViewer/lib/FileReader/FileReaderUtility.php:5
+Stack trace:
+#0 /var/www/fileViewer/lib/FileReader/FileReaderUtility.php(5): SplFileObject->__construct('/var/www')
+#1 /var/www/fileViewer/lib/FileReader/FileViewManager.php(15): FileReaderUtility->readFileContent(Array)
+#2 /var/www/fileViewer/tests/FileReader/FileViewManagerTest.php(11): FileViewManager->getContents(Array)
+#3 [internal function]: FileViewManagerTest->testGetContents(Array, Array)
+#4 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(988): ReflectionMethod->invokeArgs(Object(FileViewManagerTest), Array)
+#5 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(838): PHPUnit_Framework_TestCase->runTest()
+#6 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestResult.php(648): PHPUnit_Framework_TestCase->runBare()
+#7 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(783): PHPUnit_Framework_TestResult->run(Object(FileViewManagerTest))
+#8 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(779): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#9 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(749): PHPUnit_Framework_TestSuite->runTest(Object(FileViewManagerTest), Object(PHPUnit_Framework_TestResult))
+#10 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(709): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#11 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(709): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#12 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/TestRunner.php(350): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#13 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(176): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#14 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(129): PHPUnit_TextUI_Command->run(Array, true)
+#15 /var/www/fileViewer/vendor/phpunit/phpunit/phpunit.php(46): PHPUnit_TextUI_Command::main()
+#16 {main} Message : Cannot use SplFileObject with directories Code : 0
+Exception : exception 'Exception' with message 'This is exception while reading file' in /var/www/fileViewer/tests/FileReader/FileReaderExceptionTest.php:7
+Stack trace:
+#0 [internal function]: FileReaderExceptionTest->testcreateObject()
+#1 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(988): ReflectionMethod->invokeArgs(Object(FileReaderExceptionTest), Array)
+#2 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(838): PHPUnit_Framework_TestCase->runTest()
+#3 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestResult.php(648): PHPUnit_Framework_TestCase->runBare()
+#4 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(783): PHPUnit_Framework_TestResult->run(Object(FileReaderExceptionTest))
+#5 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(779): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#6 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(749): PHPUnit_Framework_TestSuite->runTest(Object(FileReaderExceptionTest), Object(PHPUnit_Framework_TestResult))
+#7 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(709): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#8 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/TestRunner.php(350): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#9 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(176): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#10 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(129): PHPUnit_TextUI_Command->run(Array, true)
+#11 /var/www/fileViewer/vendor/phpunit/phpunit/phpunit.php(46): PHPUnit_TextUI_Command::main()
+#12 {main} Message :  Code : 0
+Exception : exception 'LogicException' with message 'Cannot use SplFileObject with directories' in /var/www/fileViewer/lib/FileReader/FileReaderUtility.php:5
+Stack trace:
+#0 /var/www/fileViewer/lib/FileReader/FileReaderUtility.php(5): SplFileObject->__construct('/var/www')
+#1 /var/www/fileViewer/lib/FileReader/FileViewManager.php(16): FileReaderUtility->readFileContent(Array)
+#2 /var/www/fileViewer/tests/FileReader/FileViewManagerTest.php(11): FileViewManager->getContents(Array)
+#3 [internal function]: FileViewManagerTest->testGetContents(Array, Array)
+#4 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(988): ReflectionMethod->invokeArgs(Object(FileViewManagerTest), Array)
+#5 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(838): PHPUnit_Framework_TestCase->runTest()
+#6 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestResult.php(648): PHPUnit_Framework_TestCase->runBare()
+#7 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(783): PHPUnit_Framework_TestResult->run(Object(FileViewManagerTest))
+#8 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(779): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#9 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(749): PHPUnit_Framework_TestSuite->runTest(Object(FileViewManagerTest), Object(PHPUnit_Framework_TestResult))
+#10 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(709): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#11 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(709): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#12 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/TestRunner.php(350): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#13 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(176): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#14 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(129): PHPUnit_TextUI_Command->run(Array, true)
+#15 /var/www/fileViewer/vendor/phpunit/phpunit/phpunit.php(46): PHPUnit_TextUI_Command::main()
+#16 {main} Message : Cannot use SplFileObject with directories Code : 0
+Exception : exception 'Exception' with message 'This is exception while reading file' in /var/www/fileViewer/tests/FileReader/FileReaderExceptionTest.php:7
+Stack trace:
+#0 [internal function]: FileReaderExceptionTest->testcreateObject()
+#1 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(988): ReflectionMethod->invokeArgs(Object(FileReaderExceptionTest), Array)
+#2 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(838): PHPUnit_Framework_TestCase->runTest()
+#3 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestResult.php(648): PHPUnit_Framework_TestCase->runBare()
+#4 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(783): PHPUnit_Framework_TestResult->run(Object(FileReaderExceptionTest))
+#5 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(779): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#6 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(749): PHPUnit_Framework_TestSuite->runTest(Object(FileReaderExceptionTest), Object(PHPUnit_Framework_TestResult))
+#7 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(709): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#8 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/TestRunner.php(350): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#9 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(176): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#10 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(129): PHPUnit_TextUI_Command->run(Array, true)
+#11 /var/www/fileViewer/vendor/phpunit/phpunit/phpunit.php(46): PHPUnit_TextUI_Command::main()
+#12 {main} Message :  Code : 0
+Exception : exception 'LogicException' with message 'Cannot use SplFileObject with directories' in /var/www/fileViewer/lib/FileReader/FileReaderUtility.php:5
+Stack trace:
+#0 /var/www/fileViewer/lib/FileReader/FileReaderUtility.php(5): SplFileObject->__construct('/var/www')
+#1 /var/www/fileViewer/lib/FileReader/FileViewManager.php(16): FileReaderUtility->readFileContent(Array)
+#2 /var/www/fileViewer/tests/FileReader/FileViewManagerTest.php(11): FileViewManager->getContents(Array)
+#3 [internal function]: FileViewManagerTest->testGetContents(Array, Array)
+#4 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(988): ReflectionMethod->invokeArgs(Object(FileViewManagerTest), Array)
+#5 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(838): PHPUnit_Framework_TestCase->runTest()
+#6 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestResult.php(648): PHPUnit_Framework_TestCase->runBare()
+#7 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(783): PHPUnit_Framework_TestResult->run(Object(FileViewManagerTest))
+#8 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(779): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#9 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(749): PHPUnit_Framework_TestSuite->runTest(Object(FileViewManagerTest), Object(PHPUnit_Framework_TestResult))
+#10 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(709): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#11 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(709): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#12 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/TestRunner.php(350): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#13 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(176): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#14 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(129): PHPUnit_TextUI_Command->run(Array, true)
+#15 /var/www/fileViewer/vendor/phpunit/phpunit/phpunit.php(46): PHPUnit_TextUI_Command::main()
+#16 {main} Message : Cannot use SplFileObject with directories Code : 0
+Exception : exception 'Exception' with message 'This is exception while reading file' in /var/www/fileViewer/tests/FileReader/FileReaderExceptionTest.php:7
+Stack trace:
+#0 [internal function]: FileReaderExceptionTest->testcreateObject()
+#1 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(988): ReflectionMethod->invokeArgs(Object(FileReaderExceptionTest), Array)
+#2 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(838): PHPUnit_Framework_TestCase->runTest()
+#3 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestResult.php(648): PHPUnit_Framework_TestCase->runBare()
+#4 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(783): PHPUnit_Framework_TestResult->run(Object(FileReaderExceptionTest))
+#5 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(779): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#6 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(749): PHPUnit_Framework_TestSuite->runTest(Object(FileReaderExceptionTest), Object(PHPUnit_Framework_TestResult))
+#7 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(709): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#8 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/TestRunner.php(350): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#9 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(176): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#10 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(129): PHPUnit_TextUI_Command->run(Array, true)
+#11 /var/www/fileViewer/vendor/phpunit/phpunit/phpunit.php(46): PHPUnit_TextUI_Command::main()
+#12 {main} Message :  Code : 0
+Exception : exception 'Exception' with message 'This is exception while reading file' in /var/www/fileViewer/tests/FileReader/FileReaderExceptionTest.php:7
+Stack trace:
+#0 [internal function]: FileReaderExceptionTest->testcreateObject()
+#1 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(988): ReflectionMethod->invokeArgs(Object(FileReaderExceptionTest), Array)
+#2 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(838): PHPUnit_Framework_TestCase->runTest()
+#3 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestResult.php(648): PHPUnit_Framework_TestCase->runBare()
+#4 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(783): PHPUnit_Framework_TestResult->run(Object(FileReaderExceptionTest))
+#5 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(779): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#6 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(749): PHPUnit_Framework_TestSuite->runTest(Object(FileReaderExceptionTest), Object(PHPUnit_Framework_TestResult))
+#7 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(709): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#8 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/TestRunner.php(350): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#9 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(176): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#10 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(129): PHPUnit_TextUI_Command->run(Array, true)
+#11 /var/www/fileViewer/vendor/phpunit/phpunit/phpunit.php(46): PHPUnit_TextUI_Command::main()
+#12 {main} Message :  Code : 0
+Exception : exception 'Exception' with message 'This is exception while reading file' in /var/www/fileViewer/tests/FileReader/FileReaderExceptionTest.php:7
+Stack trace:
+#0 [internal function]: FileReaderExceptionTest->testcreateObject()
+#1 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(988): ReflectionMethod->invokeArgs(Object(FileReaderExceptionTest), Array)
+#2 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(838): PHPUnit_Framework_TestCase->runTest()
+#3 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestResult.php(648): PHPUnit_Framework_TestCase->runBare()
+#4 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(783): PHPUnit_Framework_TestResult->run(Object(FileReaderExceptionTest))
+#5 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(779): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#6 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(749): PHPUnit_Framework_TestSuite->runTest(Object(FileReaderExceptionTest), Object(PHPUnit_Framework_TestResult))
+#7 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(709): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#8 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/TestRunner.php(350): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#9 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(176): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#10 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(129): PHPUnit_TextUI_Command->run(Array, true)
+#11 /var/www/fileViewer/vendor/phpunit/phpunit/phpunit.php(46): PHPUnit_TextUI_Command::main()
+#12 {main} Message :  Code : 0
+Exception : exception 'Exception' with message 'This is exception while reading file' in /var/www/fileViewer/tests/FileReader/FileReaderExceptionTest.php:7
+Stack trace:
+#0 [internal function]: FileReaderExceptionTest->testcreateObject()
+#1 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(988): ReflectionMethod->invokeArgs(Object(FileReaderExceptionTest), Array)
+#2 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(838): PHPUnit_Framework_TestCase->runTest()
+#3 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestResult.php(648): PHPUnit_Framework_TestCase->runBare()
+#4 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(783): PHPUnit_Framework_TestResult->run(Object(FileReaderExceptionTest))
+#5 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(779): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#6 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(749): PHPUnit_Framework_TestSuite->runTest(Object(FileReaderExceptionTest), Object(PHPUnit_Framework_TestResult))
+#7 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(709): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#8 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/TestRunner.php(350): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#9 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(176): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#10 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(129): PHPUnit_TextUI_Command->run(Array, true)
+#11 /var/www/fileViewer/vendor/phpunit/phpunit/phpunit.php(46): PHPUnit_TextUI_Command::main()
+#12 {main} Message :  Code : 0
+Exception : exception 'LogicException' with message 'Cannot use SplFileObject with directories' in /var/www/fileViewer/lib/FileReader/FileReaderUtility.php:5
+Stack trace:
+#0 /var/www/fileViewer/lib/FileReader/FileReaderUtility.php(5): SplFileObject->__construct('/tmp/my_folder')
+#1 /var/www/fileViewer/lib/FileReader/FileViewManager.php(16): FileReaderUtility->readFileContent(Array)
+#2 /var/www/fileViewer/tests/FileReader/FileViewManagerTest.php(11): FileViewManager->getContents(Array)
+#3 [internal function]: FileViewManagerTest->testGetContents(Array, Array)
+#4 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(988): ReflectionMethod->invokeArgs(Object(FileViewManagerTest), Array)
+#5 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(838): PHPUnit_Framework_TestCase->runTest()
+#6 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestResult.php(648): PHPUnit_Framework_TestCase->runBare()
+#7 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(783): PHPUnit_Framework_TestResult->run(Object(FileViewManagerTest))
+#8 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(779): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#9 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(749): PHPUnit_Framework_TestSuite->runTest(Object(FileViewManagerTest), Object(PHPUnit_Framework_TestResult))
+#10 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(709): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#11 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(709): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#12 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/TestRunner.php(350): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#13 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(176): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#14 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(129): PHPUnit_TextUI_Command->run(Array, true)
+#15 /var/www/fileViewer/vendor/phpunit/phpunit/phpunit.php(46): PHPUnit_TextUI_Command::main()
+#16 {main} Message : Cannot use SplFileObject with directories Code : 0
+Exception : exception 'Exception' with message 'This is exception while reading file' in /var/www/fileViewer/tests/FileReader/FileReaderExceptionTest.php:7
+Stack trace:
+#0 [internal function]: FileReaderExceptionTest->testcreateObject()
+#1 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(988): ReflectionMethod->invokeArgs(Object(FileReaderExceptionTest), Array)
+#2 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(838): PHPUnit_Framework_TestCase->runTest()
+#3 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestResult.php(648): PHPUnit_Framework_TestCase->runBare()
+#4 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(783): PHPUnit_Framework_TestResult->run(Object(FileReaderExceptionTest))
+#5 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(779): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#6 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(749): PHPUnit_Framework_TestSuite->runTest(Object(FileReaderExceptionTest), Object(PHPUnit_Framework_TestResult))
+#7 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(709): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#8 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/TestRunner.php(350): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#9 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(176): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#10 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(129): PHPUnit_TextUI_Command->run(Array, true)
+#11 /var/www/fileViewer/vendor/phpunit/phpunit/phpunit.php(46): PHPUnit_TextUI_Command::main()
+#12 {main} Message :  Code : 0
+Exception : exception 'LogicException' with message 'Cannot use SplFileObject with directories' in /var/www/fileViewer/lib/FileReader/FileReaderUtility.php:5
+Stack trace:
+#0 /var/www/fileViewer/lib/FileReader/FileReaderUtility.php(5): SplFileObject->__construct('/tmp/my_folder')
+#1 /var/www/fileViewer/lib/FileReader/FileViewManager.php(16): FileReaderUtility->readFileContent(Array)
+#2 /var/www/fileViewer/tests/FileReader/FileViewManagerTest.php(11): FileViewManager->getContents(Array)
+#3 [internal function]: FileViewManagerTest->testGetContents(Array, Array)
+#4 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(988): ReflectionMethod->invokeArgs(Object(FileViewManagerTest), Array)
+#5 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(838): PHPUnit_Framework_TestCase->runTest()
+#6 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestResult.php(648): PHPUnit_Framework_TestCase->runBare()
+#7 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php(783): PHPUnit_Framework_TestResult->run(Object(FileViewManagerTest))
+#8 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(779): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#9 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(749): PHPUnit_Framework_TestSuite->runTest(Object(FileViewManagerTest), Object(PHPUnit_Framework_TestResult))
+#10 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(709): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#11 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(709): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#12 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/TestRunner.php(350): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#13 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(176): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#14 /var/www/fileViewer/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php(129): PHPUnit_TextUI_Command->run(Array, true)
+#15 /var/www/fileViewer/vendor/phpunit/phpunit/phpunit.php(46): PHPUnit_TextUI_Command::main()
+#16 {main} Message : Cannot use SplFileObject with directories Code : 0

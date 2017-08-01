@@ -1,0 +1,7 @@
+<phpunit bootstrap="tests/bootStrap.php">
+	<testsuites>
+		<testsuite name="fileReader">
+			<directory>tests/FileReader</directory>
+		</testsuite>
+	</testsuites>
+</phpunit>
