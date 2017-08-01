@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit012e2334f8056b187b2fa5bb1d8e271b
+class ComposerStaticInit23168e5e8612f880c0c2903180903082
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -67,6 +67,7 @@ class ComposerStaticInit012e2334f8056b187b2fa5bb1d8e271b
         'D' => 
         array (
             'Doctrine\\Instantiator\\' => 22,
+            'Doctrine\\Common\\Annotations\\' => 28,
         ),
     );
 
@@ -191,6 +192,10 @@ class ComposerStaticInit012e2334f8056b187b2fa5bb1d8e271b
         array (
             0 => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator',
         ),
+        'Doctrine\\Common\\Annotations\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/annotations/lib/Doctrine/Common/Annotations',
+        ),
     );
 
     public static $prefixesPsr0 = array (
@@ -278,10 +283,6 @@ class ComposerStaticInit012e2334f8056b187b2fa5bb1d8e271b
             array (
                 0 => __DIR__ . '/..' . '/doctrine/lexer/lib',
             ),
-            'Doctrine\\Common\\Annotations\\' => 
-            array (
-                0 => __DIR__ . '/..' . '/doctrine/annotations/lib',
-            ),
         ),
         'C' => 
         array (
@@ -342,9 +343,6 @@ class ComposerStaticInit012e2334f8056b187b2fa5bb1d8e271b
         'Cilex\\Tests\\ServiceProviderMock' => __DIR__ . '/..' . '/cilex/cilex/tests/Cilex/Tests/ApplicationTest.php',
         'ClassWithNonPublicAttributes' => __DIR__ . '/..' . '/phpunit/phpunit/Tests/_files/ClassWithNonPublicAttributes.php',
         'ClassWithToString' => __DIR__ . '/..' . '/phpunit/phpunit/Tests/_files/ClassWithToString.php',
-        'ComposerAutoloaderInit012e2334f8056b187b2fa5bb1d8e271b' => __DIR__ . '/..' . '/composer/autoload_real.php',
-        'Composer\\Autoload\\ClassLoader' => __DIR__ . '/..' . '/composer/ClassLoader.php',
-        'Composer\\Autoload\\ComposerStaticInit012e2334f8056b187b2fa5bb1d8e271b' => __DIR__ . '/..' . '/composer/autoload_static.php',
         'ConcreteTest' => __DIR__ . '/..' . '/phpunit/phpunit/Tests/_files/ConcreteTest.php',
         'ConcreteWithMyCustomExtensionTest' => __DIR__ . '/..' . '/phpunit/phpunit/Tests/_files/ConcreteTest.my.php',
         'CoreTestIterator' => __DIR__ . '/..' . '/twig/twig/test/Twig/Tests/Extension/CoreTest.php',
@@ -437,11 +435,16 @@ class ComposerStaticInit012e2334f8056b187b2fa5bb1d8e271b
         'FailureTest' => __DIR__ . '/..' . '/phpunit/phpunit/Tests/_files/FailureTest.php',
         'FatalTest' => __DIR__ . '/..' . '/phpunit/phpunit/Tests/_files/FatalTest.php',
         'FeatureContext' => __DIR__ . '/..' . '/phpdocumentor/phpdocumentor/features/bootstrap/FeatureContext.php',
-        'FileReaderException' => __DIR__ . '/../..' . '/lib/FileReader/file_reader_exception.php',
-        'FileReaderUtility' => __DIR__ . '/../..' . '/lib/FileReader/file_reader_utility.php',
-        'FileViewFactory' => __DIR__ . '/../..' . '/lib/FileReader/file_view_factory.php',
-        'FileViewManager' => __DIR__ . '/../..' . '/lib/FileReader/file_view_manager.php',
-        'FileViewValidator' => __DIR__ . '/../..' . '/lib/FileReader/file_view_validator.php',
+        'FileReaderException' => __DIR__ . '/../..' . '/lib/FileReader/FileReaderException.php',
+        'FileReaderExceptionTest' => __DIR__ . '/../..' . '/tests/FileReader/FileReaderExceptionTest.php',
+        'FileReaderUtility' => __DIR__ . '/../..' . '/lib/FileReader/FileReaderUtility.php',
+        'FileReaderUtilityTest' => __DIR__ . '/../..' . '/tests/FileReader/FileReaderUtilityTest.php',
+        'FileViewFactory' => __DIR__ . '/../..' . '/lib/FileReader/FileViewFactory.php',
+        'FileViewFactoryTest' => __DIR__ . '/../..' . '/tests/FileReader/FileViewFactoryTest.php',
+        'FileViewManager' => __DIR__ . '/../..' . '/lib/FileReader/FileViewManager.php',
+        'FileViewManagerTest' => __DIR__ . '/../..' . '/tests/FileReader/FileViewManagerTest.php',
+        'FileViewValidator' => __DIR__ . '/../..' . '/lib/FileReader/FileViewValidator.php',
+        'FileViewValidatorTest' => __DIR__ . '/../..' . '/tests/FileReader/FileViewValidatorTest.php',
         'File_Iterator' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Iterator.php',
         'File_Iterator_Facade' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Facade.php',
         'File_Iterator_Factory' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Factory.php',
@@ -3094,21 +3097,6 @@ class ComposerStaticInit012e2334f8056b187b2fa5bb1d8e271b
         'Zend\\Json\\Exception\\RuntimeException' => __DIR__ . '/..' . '/zendframework/zend-json/src/Exception/RuntimeException.php',
         'Zend\\Json\\Expr' => __DIR__ . '/..' . '/zendframework/zend-json/src/Expr.php',
         'Zend\\Json\\Json' => __DIR__ . '/..' . '/zendframework/zend-json/src/Json.php',
-        'Zend\\Json\\Server\\Cache' => __DIR__ . '/..' . '/zendframework/zend-json/src/Server/Cache.php',
-        'Zend\\Json\\Server\\Client' => __DIR__ . '/..' . '/zendframework/zend-json/src/Server/Client.php',
-        'Zend\\Json\\Server\\Error' => __DIR__ . '/..' . '/zendframework/zend-json/src/Server/Error.php',
-        'Zend\\Json\\Server\\Exception\\ErrorException' => __DIR__ . '/..' . '/zendframework/zend-json/src/Server/Exception/ErrorException.php',
-        'Zend\\Json\\Server\\Exception\\ExceptionInterface' => __DIR__ . '/..' . '/zendframework/zend-json/src/Server/Exception/ExceptionInterface.php',
-        'Zend\\Json\\Server\\Exception\\HttpException' => __DIR__ . '/..' . '/zendframework/zend-json/src/Server/Exception/HttpException.php',
-        'Zend\\Json\\Server\\Exception\\InvalidArgumentException' => __DIR__ . '/..' . '/zendframework/zend-json/src/Server/Exception/InvalidArgumentException.php',
-        'Zend\\Json\\Server\\Exception\\RuntimeException' => __DIR__ . '/..' . '/zendframework/zend-json/src/Server/Exception/RuntimeException.php',
-        'Zend\\Json\\Server\\Request' => __DIR__ . '/..' . '/zendframework/zend-json/src/Server/Request.php',
-        'Zend\\Json\\Server\\Request\\Http' => __DIR__ . '/..' . '/zendframework/zend-json/src/Server/Request/Http.php',
-        'Zend\\Json\\Server\\Response' => __DIR__ . '/..' . '/zendframework/zend-json/src/Server/Response.php',
-        'Zend\\Json\\Server\\Response\\Http' => __DIR__ . '/..' . '/zendframework/zend-json/src/Server/Response/Http.php',
-        'Zend\\Json\\Server\\Server' => __DIR__ . '/..' . '/zendframework/zend-json/src/Server/Server.php',
-        'Zend\\Json\\Server\\Smd' => __DIR__ . '/..' . '/zendframework/zend-json/src/Server/Smd.php',
-        'Zend\\Json\\Server\\Smd\\Service' => __DIR__ . '/..' . '/zendframework/zend-json/src/Server/Smd/Service.php',
         'Zend\\Serializer\\AdapterPluginManager' => __DIR__ . '/..' . '/zendframework/zend-serializer/src/AdapterPluginManager.php',
         'Zend\\Serializer\\AdapterPluginManagerFactory' => __DIR__ . '/..' . '/zendframework/zend-serializer/src/AdapterPluginManagerFactory.php',
         'Zend\\Serializer\\Adapter\\AbstractAdapter' => __DIR__ . '/..' . '/zendframework/zend-serializer/src/Adapter/AbstractAdapter.php',
@@ -4497,10 +4485,10 @@ class ComposerStaticInit012e2334f8056b187b2fa5bb1d8e271b
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit012e2334f8056b187b2fa5bb1d8e271b::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit012e2334f8056b187b2fa5bb1d8e271b::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit012e2334f8056b187b2fa5bb1d8e271b::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit012e2334f8056b187b2fa5bb1d8e271b::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit23168e5e8612f880c0c2903180903082::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit23168e5e8612f880c0c2903180903082::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit23168e5e8612f880c0c2903180903082::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit23168e5e8612f880c0c2903180903082::$classMap;
 
         }, null, ClassLoader::class);
     }

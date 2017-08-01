@@ -21,7 +21,7 @@ function changePage(type){
 	var postData = {};
 	postData['path'] = $('#fileInput').val(); 
 	if(!postData['path']) {
-		displayErrMessage("Enter correct file path to continue");
+		displayErrMessage("Enter correct file path to continue ");
 		return false;
 	}
 	postData['type'] = type;
@@ -37,7 +37,7 @@ function changePage(type){
 }
 function displayError(errMsg) {
 	if(!errMsg) {
-		errMsg = "some error occured !!! try again"
+		errMsg = "some  unknown error occured "
 	}
 	displayErrMessage(errMsg);
 }

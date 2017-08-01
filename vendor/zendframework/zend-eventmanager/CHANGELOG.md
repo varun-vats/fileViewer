@@ -2,6 +2,53 @@
 
 All notable changes to this project will be documented in this file, in reverse chronological order by release.
 
+## 3.2.0 - 2017-07-11
+
+### Added
+
+- Nothing.
+
+### Deprecated
+
+- Nothing.
+
+### Removed
+
+- [#47](https://github.com/zendframework/zend-eventmanager/pull/47) removes
+  support for PHP 5.5 and HHVM.
+
+### Fixed
+
+- Nothing.
+
+## 3.1.0 - 2016-12-19
+
+### Added
+
+- [#26](https://github.com/zendframework/zend-eventmanager/pull/26) publishes
+  the documentation to https://zendframework.github.io/zend-eventmanager/
+
+### Changes
+
+- [#17](https://github.com/zendframework/zend-eventmanager/pull/17) makes a
+  number of internal changes to how listeners are stored in order to improve
+  performance, by as much as 10% in the scenario used in the MVC layer.
+  
+  Additionally, it optimizes when the target and event arguments are injected
+  into an event, eliminating that step entirely when either is unavailable.
+
+### Deprecated
+
+- Nothing.
+
+### Removed
+
+- Nothing.
+
+### Fixed
+
+- Nothing.
+
 ## 3.0.1 - 2016-02-18
 
 ### Added

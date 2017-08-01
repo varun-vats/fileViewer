@@ -19,7 +19,6 @@ return array(
     'Herrera\\Phar\\Update' => array($vendorDir . '/herrera-io/phar-update/src/lib'),
     'Herrera\\Json' => array($vendorDir . '/herrera-io/json/src/lib'),
     'Doctrine\\Common\\Lexer\\' => array($vendorDir . '/doctrine/lexer/lib'),
-    'Doctrine\\Common\\Annotations\\' => array($vendorDir . '/doctrine/annotations/lib'),
     'Cilex\\Provider\\Console' => array($vendorDir . '/cilex/console-service-provider/src'),
     'Cilex\\Provider' => array($vendorDir . '/phpdocumentor/phpdocumentor/src'),
     'Cilex' => array($vendorDir . '/cilex/cilex/src'),
